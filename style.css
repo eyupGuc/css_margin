@@ -1,35 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: #cec5c2;
-  font-weight: bold;
+  background-color: papayawhip;
 }
 
 .container {
   border: 1px solid red;
   padding: 15px;
+  padding-top: 80px;
   border: 3px solid black;
-  background-color: #fa8072;
+  background-color: salmon;
 }
 
 .img {
   width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 3px solid black;
+  margin-bottom: -90px;
 }
 
 .Anacontainer {
   /* border: 1px solid green; */
   text-align: center;
-  margin: 3rem;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 40rem;
+  height: 30rem;
+  margin: 100px auto 0;
 }
 .icerik {
   /* border: 2px solid blue; */
 
-  font-size: 34px;
+  font-size: 40px;
 }
 
 #altparagraf {
-  color: tomato;
-  font-size: 25px;
-}
-.img-container {
+  color: palevioletred;
+  text-align: center;
+  padding-top: 40px;
+  width: 40rem;
+  margin: auto;
 }
